@@ -9,7 +9,7 @@ import 'mdb-vue-ui-kit/css/mdb.min.css';
 
 
 axios.defaults.withCredentials = true;
-axios.defaults.baseURL = "https://gabbyblog.herokuapp.com/";
+// axios.defaults.baseURL = "https://gabbyblog.herokuapp.com/";
 
 axios.interceptors.response.use(undefined, function(error) {
   if (error) {
